@@ -51,7 +51,7 @@
                         <li class="nav-item mx-0 mx-md-1"><a class="nav-link py-3 px-0 px-md-3 rounded" href="experience.html">Experience</a></li>
                         <li class="nav-item mx-0 mx-md-1"><a class="nav-link py-3 px-0 px-md-3 rounded" href="education.html">Education</a></li>
                         <li class="nav-item mx-0 mx-md-1"><a class="nav-link py-3 px-0 px-md-3 rounded" href="training.html">Training & Certification</a></li>
-                        <li class="nav-item mx-0 mx-md-1"><a class="nav-link py-3 px-0 px-md-3 rounded" href="portfolio.html">Portfolio & Showcase</a></li>
+                        <!-- <li class="nav-item mx-0 mx-md-1"><a class="nav-link py-3 px-0 px-md-3 rounded" href="portfolio.html">Portfolio & Showcase</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -61,60 +61,75 @@
         <section class="page-section text-white mb-0 mt-5" id="skill">
             <div id="particles-js"></div>
             <div class="container">
-                <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase pb-4">Skill / Competencies</h2>
-                <!-- About Section Content-->
                 <div class="row">
                     <div class="col-lg-6 ms-auto">
-                        <h4 class="text-black p-1" style="background-color: white;"><strong>Hardware/Infrasturcture</strong> </h4>
-                        <p class="lead"><strong>Cloud System</strong> - Google Cloud Platform, Amazon Web Service, Azure Cloud, Digital Ocean</p>
-                        <p class="lead"><strong>Container Orchestration</strong> - Kubernetes, Google Kubernetes Engine, Amazon Elastic Kubernetes Service, Azure Kubernetes Service, Digital Ocean Kubernetes</p>
-                        <p class="lead"><strong>Server Administration</strong> - Linux (CentOS, RHEL, Debian, Ubuntu), Windows Server</p>
-                        <p class="lead"><strong>Server Peripheral</strong> - HPE, Dell, Nutanix</p>
-                        <p class="lead"><strong>Storage Administration</strong> - NAS (Network Attached Storage), SAN (Storage Area Network), Google Cloud Storage, Google File Store, AWS Simple Storage Service (S3), AWS Elastic File System (EFS), Azure Cloud Storage </p>
-                        <p class="lead"><strong>Storage Peripheral</strong> - Synology, NetApp</p>
-                        <p class="lead"><strong>Networking Concept</strong> - 7 OSI Layer, Network Architecturing, TCP/IP, SSH, FTP, SMTP, SNMP, DHCP, DNS/DDNS, Firewall, VPN, Static/Dynamic Routing</p>
-                        <p class="lead"><strong>Networking Peripheral</strong> - Cisco, Mikrotik, Meraki, Aruba, Juniper, Fortinet</p>
-                        <p class="lead"><strong>Database & Data Administration</strong> - SQL Server, MySQL, PostgreSQL, Apache Kafka, Google CloudSQL, Google BigQuery, Amazon RDS, Azure SQL Database</p>
-                        <p class="lead"><strong>Monitoring</strong> - Pandora FMS, Prometheus, Nagios, Open NMS, Grafana Dashboard, Open Telemetry, Loki, Jaeger, Zipkins, ELK, DatadogHQ, Google SRE Suites (Cloud Monitoring, Cloud Logging, Cloud Tracer), Amazon Cloud Watch, Azure Cloud Monitoring, Digital Ocean Monitoring</p>
-                        <p class="lead"><strong>Virtualization & Containerization</strong> - Google Compute Engine, Amazon EC2, Azure Compoute, Digital Ocean Droplets, VMWare VSphere, HyperV, Proxmox, Docker, Google Container Registry, Google Artifact Registry, Azure Container Registry, Amazon Elastic Container Registry</p>                 
-                        <p class="lead"><strong>Web Server & Reverse Proxy</strong> - Apache, NginX, Haproxy, IIS, Glassfish, Ingress, Traefik, Kong</p>
-                        <p class="lead"><strong>IT Support</strong> - PC (Laptop/Desktop) Diagnostic, Troubleshooting, Repairement</p>
+                        <h4 class="text-black p-1" style="background-color: white;"><strong>Core Competencies - DevOps & Delivery</strong></h4>
+                        <p class="lead"><strong>CI/CD</strong> – Jenkins, GitLab CI, GitHub Actions, ArgoCD, Azure DevOps, Google Cloud Build, AWS CodePipeline</p>
+                        <p class="lead"><strong>IaC & Automation</strong> – Terraform, Ansible, Selenium</p>
+                        <p class="lead"><strong>Monitoring & Logging</strong> – Prometheus, Grafana, Loki, Tempo, ELK, OpenTelemetry, Cloud-native tools (GCP, AWS, Azure)</p>
+                        <p class="lead"><strong>Containerization & Orchestration</strong> – Docker, Kubernetes (GKE, EKS, AKS, DigitalOcean K8s)</p>
+                        <p class="lead"><strong>Version Control</strong> – Git, GitHub, GitLab, Azure Repos, AWS CodeCommit</p>
+
+                        <br>
+
+                        <h4 class="text-black p-1" style="background-color: white;"><strong>Cloud & Infrastructure</strong></h4>
+                        <p class="lead"><strong>Cloud Platforms</strong> – GCP, AWS, Azure, DigitalOcean</p>
+                        <p class="lead"><strong>Virtualization</strong> – VMWare, Proxmox, Hyper-V, OpenStack</p>
+                        <p class="lead"><strong>Storage</strong> – GCS, AWS S3/EFS, Azure Blob, NAS/SAN</p>
+                        <p class="lead"><strong>Servers & Networking</strong> – Linux (Ubuntu, RHEL, CentOS), Windows Server, Cisco, Fortinet, Mikrotik</p>
+                        <p class="lead"><strong>API & SSO</strong> – Kong, Software AG, Keycloak, RH SSO</p>
+
+                        <br>
+
+                        <h4 class="text-black p-1" style="background-color: white;"><strong>Database & Messaging</strong></h4>
+                        <p class="lead"><strong>RDBMS</strong> – PostgreSQL, MySQL, SQL Server</p>
+                        <p class="lead"><strong>Cloud DBs</strong> – CloudSQL, BigQuery, Amazon RDS, Azure SQL</p>
+                        <p class="lead"><strong>Messaging & Stream Processing</strong> – Apache Kafka</p>
+
+                        <br>
+
+                        <h4 class="text-black p-1" style="background-color: white;"><strong>AI / ML</strong></h4>
+                        <p class="lead"><strong>AI Tools & Frameworks</strong> – Flowise, n8n, Ollama, OpenAI, Gemini</p>
+                        <p class="lead"><strong>Vector Databases</strong> – Qdrant, pgvector</p>
+                        <p class="lead"><strong>Languages & Libraries</strong> – Python (LLMs, LangChain, Transformers, etc)</p>
+                        <p class="lead"><strong>Use Cases</strong> – Chatbots, Embeddings, Knowledge Base AI, AI-powered Keynote Generation</p>
+                    </div>
+
+                    <div class="col-lg-6 me-auto">
+                        <h4 class="text-black p-1" style="background-color: white;"><strong>Software Development</strong></h4>
+                        <p class="lead"><strong>Backend</strong> – PHP (Laravel, CI), Java (Spring), Python (Django, Flask, FastAPI), JavaScript (Express.js), Go (Fiber)</p>
+                        <p class="lead"><strong>Frontend</strong> – HTML/CSS, Bootstrap, Vue.js, React.js, Flutter, Next.js</p>
+                        <p class="lead"><strong>Mobile/Desktop</strong> – Android, JavaFX</p>
+                        <p class="lead"><strong>Prototyping</strong> – Figma, Adobe XD, Draw.io, Visily</p>
+                        <p class="lead"><strong>Platforms</strong> – Web, Desktop, Mobile</p>
+
+                        <br>
+
+                        <h4 class="text-black p-1" style="background-color: white;"><strong>Project Management</strong></h4>
+                        <p class="lead"><strong>Frameworks/Methodologies</strong> – Waterfall, Agile, DevOps, Scrum</p>
+                        <p class="lead"><strong>Project Planning Tools</strong> – Confluent, ClickUp, Plane, Trello, Taiga, Wrike</p>
+                        <p class="lead">Project Planning, Project Budgeting/Costing, Resource Management, Project Coordination/Communication</p>
 
                         <br>
 
                         <h4 class="text-black p-1" style="background-color: white;"><strong>Art & Design</strong></h4>
-                        <p class="lead"><strong>3D Design</strong> - Blender, 3Ds Max, Sketchup</p>                        
-                        <p class="lead"><strong>Architecture Design</strong> - Visio, Draw.io, Edraw Max</p>
-                        <p class="lead"><strong>Graphic Design & Editing</strong> - Adobe Photoshop, Adobe Ilustrator, Adobe Lightroom, Corel Draw</p>
+                        <p class="lead"><strong>3D Design</strong> – Blender, 3Ds Max, SketchUp</p>
+                        <p class="lead"><strong>Architecture Design</strong> – Visio, Draw.io, Edraw Max</p>
+                        <p class="lead"><strong>Graphic Design & Editing</strong> – Photoshop, Illustrator, Lightroom, Corel</p>
                         <p class="lead"><strong>Photography & Cinematography</strong></p>
-                        <p class="lead"><strong>Video Editing</strong> - Adobe Premiere Pro, Adobe After Effect, Filmora, Camtasia</p>
-                    </div>
-                    <div class="col-lg-6 me-auto">
-                        <h4 class="text-black p-1" style="background-color: white;"><strong>Software Development</strong></h4>                  
-                        <p class="lead"><strong>Backend Programming</strong> - PHP, JavaScript, JAVA, Python, C++</p>
-                        <p class="lead"><strong>Backend Framework</strong> - (PHP) Laravel & CI, (JAVA) Spring, (Python) Django</p>
-                        <p class="lead"><strong>Frontend Programming</strong> - HTML & CSS</p>
-                        <p class="lead"><strong>Frontend Framework</strong> - Bootstrap, jQuery, Thymeleaf, Flutter, React, Vue</p>
-                        <p class="lead"><strong>Mockup and Prototyping</strong> - Xd, Figma, Draw.io</p>
-                        <p class="lead"><strong>Programming Language</strong> - PHP, JavaScript, JAVA, Python, C++</p>
-                        <p class="lead"><strong>Programming Platform</strong> - Web, Desktop, Mobile (Android)</p>
-                        <p class="lead"><strong>Source Repository & Version Control</strong> - Git, Git Hub, Git Lab, Google Source Repository, Azure Repository, AWS Code Commit </p>   
-                        <p class="lead"><strong>CI/CD</strong> - Jenkins, Git Lab, Git Hub Action, Google Cloud Build, Amazon Cloud Build, Amazon Cloud Pipeline, Azure DevOps</p>
-                        <p class="lead"><strong>Automation</strong> - Ansible, Terraform, Selenium</p>
-                        <p class="lead"><strong>Single Sign On Integration</strong> - RH SSO, Keycloak</p>
-                        <p class="lead"><strong>API Management</strong> - SoftwareAG, Kong</p>
+                        <p class="lead"><strong>Video Editing</strong> – Premiere Pro, After Effects, Filmora, Camtasia</p>
 
                         <br>
 
-                        <h4 class="text-black p-1" style="background-color: white;"><strong>Personal Strength</strong></h4>                        
-                        <p class="lead"><strong>Fast Learner</strong></p>
-                        <p class="lead"><strong>Fast Pace Working</strong></p>
-                        <p class="lead"><strong>Leadership</strong></p>
-                        <p class="lead"><strong>Public Speaking</strong></p>
-                        <p class="lead"><strong>Project Management</strong></p>
-                        <p class="lead"><strong>Task Management</strong></p>
-                        <p class="lead"><strong>Teamwork</strong></p>
+                        <h4 class="text-black p-1" style="background-color: white;"><strong>Personal Strength</strong></h4>
+                        <p class="lead">Fast Learner</p>
+                        <p class="lead">Fast Pace Working</p>
+                        <p class="lead">Leadership</p>
+                        <p class="lead">Public Speaking</p>
+                        <p class="lead">Project Management</p>
+                        <p class="lead">Task Management</p>
+                        <p class="lead">Teamwork</p>
                     </div>
                 </div>
             </div>
